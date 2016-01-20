@@ -5567,7 +5567,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>16178</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost/Dalyan.SPA</IISUrl>
+          <IISUrl>http://localhost:1001/Dalyan.SPA</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

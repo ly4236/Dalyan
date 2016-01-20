@@ -1,25 +1,11 @@
-﻿using Microsoft.AspNet.Identity;
-using Microsoft.Owin;
-using Microsoft.Owin.Security.Cookies;
+﻿using Microsoft.Owin;
 using Microsoft.Owin.Security.OAuth;
-using Microsoft.Owin.Host.SystemWeb;
 using Owin;
 using Dalyan.WebApi.Providers;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Http;
 using SimpleInjector;
-using System.Data.Entity;
-using SimpleInjector.Extensions.ExecutionContextScoping;
 using SimpleInjector.Integration.WebApi;
-using SimpleInjector.Extensions;
-using System.Data;
-using System.Data.SqlClient;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 using Dalyan.WebApi.Security;
 
 [assembly: OwinStartup(typeof(Dalyan.WebApi.Startup))]

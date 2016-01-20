@@ -1,6 +1,6 @@
 ﻿var config = {
-    apiurl: "http://localhost/Dalyan.WebApi/",
-    weburl: "http://localhost/Dalyan.SPA/",
+    apiurl: "http://localhost:1001/Dalyan.WebApi/",
+    weburl: "http://localhost:1001/Dalyan.SPA/",
 
     generateApiUrl: function (serviceUrl) {
         return config.apiurl + serviceUrl;
